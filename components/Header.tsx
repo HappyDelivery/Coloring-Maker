@@ -8,8 +8,8 @@ const Header: React.FC = () => {
         <Palette className="w-10 h-10 text-pastelPink mr-2" />
         <span className="text-3xl">✨</span>
       </div>
-      <h1 className="text-4xl md:text-6xl font-extrabold text-pastelPink tracking-tight mb-4 drop-shadow-sm text-stroke-white">
-        나만의 AI 색칠공부
+      <h1 className="text-4xl md:text-6xl font-extrabold text-pastelPink tracking-tight mb-4 drop-shadow-sm text-stroke-white leading-tight">
+        채민이를 위한<br/>Coloring Maker👩‍🎨
       </h1>
       <div className="bg-white/60 backdrop-blur-sm py-4 px-6 rounded-3xl inline-block shadow-sm border border-white/50">
         <p className="text-gray-500 text-lg md:text-2xl font-medium leading-relaxed">

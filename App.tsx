@@ -45,7 +45,7 @@ const App: React.FC = () => {
       </main>
       
       <footer className="fixed bottom-0 w-full p-6 text-center text-gray-500 text-sm font-bold bg-gradient-to-t from-white via-white/80 to-transparent pointer-events-none z-50">
-        <p>채민이를 위한 누끼 생성앱 🎨</p>
+        <p>Made by 행복배달부 🍀</p>
       </footer>
     </div>
   );
