@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나만의 AI 색칠공부 만들기</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Jua', 'Fredoka', 'sans-serif'],
+            },
+            colors: {
+              cream: '#FFFDF5',
+              pastelPink: '#FF8FAB',
+              pastelBlue: '#A0C4FF',
+              pastelBlueHover: '#BDB2FF',
+              pastelYellow: '#FDFFB6',
+              pastelGreen: '#CAFFBF',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FFFDF5;
+        font-family: 'Jua', sans-serif;
+      }
+      
+      /* Polka Dot Background Pattern */
+      .bg-pattern {
+        background-color: #FFFDF5;
+        background-image: radial-gradient(#FF8FAB 1px, transparent 1px), radial-gradient(#A0C4FF 1px, transparent 1px);
+        background-size: 24px 24px;
+        background-position: 0 0, 12px 12px;
+      }
+
+      /* Cute Custom Range Slider */
+      input[type=range] {
+        -webkit-appearance: none;
+        background: transparent;
+      }
+      input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 14px;
+        background: #F3F4F6;
+        border-radius: 999px;
+        border: 2px solid #FFE4E6;
+      }
+      input[type=range]::-webkit-slider-thumb {
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background: #FF8FAB;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border: 3px solid #fff;
+        transition: transform 0.1s;
+      }
+      input[type=range]:hover::-webkit-slider-thumb {
+        transform: scale(1.1);
+      }
+      input[type=range]:active::-webkit-slider-thumb {
+        transform: scale(0.95);
+        background: #FF6B92;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
