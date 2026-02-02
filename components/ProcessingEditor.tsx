@@ -166,29 +166,29 @@ const ProcessingEditor: React.FC<ProcessingEditorProps> = ({ imageFile, onReset 
             </div>
 
             {/* Tip Box - Improved Alignment */}
-            <div className="mt-8 p-6 bg-pastelYellow/20 rounded-3xl border-2 border-pastelYellow/50">
-              <h4 className="font-extrabold text-gray-700 mb-4 flex items-center text-xl">
+            <div className="mt-8 p-5 bg-pastelYellow/20 rounded-3xl border-2 border-pastelYellow/50">
+              <h4 className="font-extrabold text-gray-700 mb-4 flex items-center text-lg md:text-xl">
                 <span>💡</span> <span className="ml-2">꿀팁!</span>
               </h4>
-              <ul className="text-gray-600 space-y-5">
+              <ul className="text-gray-600 space-y-4">
                 <li className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-pastelPink text-white rounded-full flex items-center justify-center text-lg font-bold mr-3 shadow-sm mt-0.5">1</div>
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 bg-pastelPink text-white rounded-full flex items-center justify-center text-base md:text-lg font-bold mr-3 shadow-sm mt-0.5">1</div>
                   <div className="flex flex-col">
-                    <p className="font-bold text-gray-800 text-base tracking-tight leading-tight break-keep">
+                    <p className="font-bold text-gray-800 text-sm md:text-base tracking-tight leading-snug break-keep">
                       '깔끔하게'를 <span className="text-pastelBlue font-extrabold">80% 이상</span> 올리면
                     </p>
-                    <p className="text-gray-500 font-bold text-sm mt-1 leading-tight break-keep">
+                    <p className="text-gray-500 font-bold text-xs md:text-sm mt-1 leading-tight break-keep">
                       회색 배경이 싹 사라져요!
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-pastelPink text-white rounded-full flex items-center justify-center text-lg font-bold mr-3 shadow-sm mt-0.5">2</div>
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 bg-pastelPink text-white rounded-full flex items-center justify-center text-base md:text-lg font-bold mr-3 shadow-sm mt-0.5">2</div>
                   <div className="flex flex-col">
-                    <p className="font-bold text-gray-800 text-base tracking-tight leading-tight break-keep">
+                    <p className="font-bold text-gray-800 text-sm md:text-base tracking-tight leading-snug break-keep">
                       선이 너무 얇나요?
                     </p>
-                    <p className="text-gray-500 font-bold text-sm mt-1 leading-tight break-keep">
+                    <p className="text-gray-500 font-bold text-xs md:text-sm mt-1 leading-tight break-keep">
                       '선 두께'를 오른쪽으로 쓱쓱!
                     </p>
                   </div>
